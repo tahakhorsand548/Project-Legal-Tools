@@ -26,3 +26,34 @@ a{
     color: white;
     font-size: 1.5rem;
 }
+
+.calc .title-calc .title-icon {
+    width: 4px;
+    height: 30px;
+    background-color: #1B4332;
+}
+.calc .title-calc .tiltle-tex {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.calc {
+    height: 500px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px #d8d8d8;
+}
+
+.alert-success-custom {
+    border-left: 4px solid #1B4332;
+    color: #1B4332;
+    border-radius: 8px;
+    font-size: 0.87rem;
+    background-color: #D8F3DC;
+}
+.alert-success-custom p {
+    margin: 0;
+    padding-right: 0.5rem;
+}
+.calc .calc-box .top-box p {
+    font-size: 0.9rem;
+}
