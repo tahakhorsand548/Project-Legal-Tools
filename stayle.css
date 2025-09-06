@@ -46,14 +46,14 @@ a{
     box-shadow: 0px 0px 10px #d8d8d8;
 }
 
-.alert-success-custom {
-    border-left: 4px solid #1B4332;
+.alert-warning-custom {
+    border-left: 4px solid #8b875a;
     color: #1B4332;
     border-radius: 8px;
     font-size: 0.87rem;
-    background-color: #D8F3DC;
+    background-color: #f7f1be;
 }
-.alert-success-custom p {
+.alert-warning-custom p {
     margin: 0;
     padding-right: 0.5rem;
 }
