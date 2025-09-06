@@ -111,7 +111,7 @@
                 const percentage = parseFloat(numberInput.value);
                 if (!isNaN(percentage) && selectedDiyahValue) {
                     const result = (percentage / 100) * selectedDiyahValue;
-                    resultText.textContent = `مبلغ دیه: ${result.toLocaleString('fa-IR')} ریال`;
+                    resultText.textContent = ` ${result.toLocaleString('fa-IR')} ریال`;
                     resultContainer.classList.remove('d-none');
                 } else {
                     resultText.textContent = 'لطفا درصد را به صورت یک عدد وارد کنید.';

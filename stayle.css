@@ -3,13 +3,16 @@
     src: url(/font/Vazir-Light.woff2);
 }
 body {
-    background-color: #D8F3DC;
+    background-color: #d8f3dc54;
     font-family: "vazir";
     color: #333;
 }
 a{
     text-decoration: none;
     color: #333;
+}
+.container {
+    width: 800px;
 }
 .header-custom {
     background-color: #1B4332;
@@ -27,14 +30,15 @@ a{
     font-size: 1.5rem;
 }
 
-.calc .title-calc .title-icon {
+.title-icon {
     width: 4px;
     height: 30px;
     background-color: #1B4332;
 }
-.calc .title-calc .tiltle-tex {
-    font-size: 2rem;
+.tiltle-tex {
+    font-size: 1.7rem;
     font-weight: bold;
+    margin-top: 5px;
 }
 .calc {
     background-color: white;
@@ -142,18 +146,41 @@ a{
     align-items: center;
     justify-content: center;
 }
-.left {
-    height: 800px;
-    background-color: white;
-    border-radius: 30px;
-    box-shadow: 0px 0px 10px #d8d8d8;
-}
 .btm-2 {
     width: 100%;
-    height: 225px;
     background-color: white;
     border-radius: 30px;
     box-shadow: 0px 0px 10px #d8d8d8;
     margin-top: 15px;
 }
 
+
+.item-card {
+    width: 150px;
+    padding: 1rem;
+    border: none;
+    flex: 0 0 auto;
+}
+.item-card img {
+    width: 75px;
+    margin-bottom: 20px;
+}
+.item-card p{
+    font-size: 1rem;
+}
+@media (max-width: 767px) {
+    .item-card {
+      width: 90px;
+      padding: 0.8rem;
+    }
+    .item-card img {
+        width: 50px;
+        margin-bottom: 20px;
+    }
+    .item-card p{
+        font-size: 0.8rem;
+    }
+    .container {
+        width: 375px;
+    }
+  }
